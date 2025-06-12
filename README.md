@@ -8,7 +8,7 @@
 
 `auto-logs` is a lightweight, self-contained utility designed to provide a continuous, version-controlled heartbeat for your background processes, scheduled tasks, or even just your development environment.
 
-It operates on a simple principle: **regularly commit the current date and time to a dedicated `auto-logs.txt` file within your repository.**
+It operates on a simple principle: **regularly commit the current date and time to a dedicated `output.txt` file within your repository.**
 
 ## 🤔 Why `auto-logs`?
 
@@ -22,10 +22,9 @@ In many scenarios, you have critical background processes (like cron jobs, data 
 
 ## 🚀 Features
 
-*   **Automatic Date/Time Logging:** Appends the current timestamp to `auto-logs.txt`.
+*   **Automatic Date/Time Logging:** Appends the current timestamp to `output.txt`.
 *   **Git Integration:** Automatically stages, commits, and pushes the updated file.
 *   **Minimal Footprint:** Designed to be extremely lightweight and resource-efficient.
-*   **Configurable:** Easily adjust the target file, commit message, and execution frequency (via external scheduler).
 
 ## 🤝 Contributing
 
